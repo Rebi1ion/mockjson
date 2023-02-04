@@ -63,30 +63,53 @@
   ],
   "comments": [
     {
-      "commentId": 1
+      "commentId": 1,
+      "userId": 1,
+      "channelId": 1,
+      "body": "@pierrhack I did for 6 days in Iceland",
+      "messageTime": "11:28",
+      "messageDate": ["12", "01", "2023"]
+    },
+    {
+      "commentId": 2,
+      "userId": 2,
+      "channelId": 1,
+      "body": "Which country to visit next? This is a photo with my friends - celebrating in Bali",
+      "messageTime": "12:02",
+      "messageDate": ["13", "01", "2023"]
+    },
+    {
+      "commentId": 3,
+      "userId": 4,
+      "channelId": 2,
+      "body": "Which country to visit next? This is a photo with my friends - celebrating in Bali",
+      "messageTime": "12:02",
+      "messageDate": ["13", "01", "2023"]
     }
   ],
   "chats": [
     {
       "chatId": 1,
       "chatName": "Main",
-      "channels": [
-        {
-          "channelId": 1,
-          "channelName": "general",
-          "users": [1, 2, 3],
-          "adminUsers": [3],
-          "favoriteUsers": [2]
-        },
-        {
-          "channelId": 2,
-          "channelName": "tests",
-          "users": [3, 4],
-          "adminUsers": [4],
-          "favoriteUsers": [3]
-        }
-      ],
       "bgColor": "rgb(218, 5, 5)"
+    }
+  ],
+  "channels": [
+    {
+      "channelId": 1,
+      "chatId": 1,
+      "channelName": "general",
+      "users": [1, 2, 3],
+      "adminUsers": [3],
+      "favoriteUsers": [2]
+    },
+    {
+      "channelId": 2,
+      "chatId": 1,
+      "channelName": "tests",
+      "users": [3, 4],
+      "adminUsers": [4],
+      "favoriteUsers": [3]
     }
   ]
 }
