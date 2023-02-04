@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "userId": 1,
+      "id": 1,
       "username": "Jeshua Stout",
       "avatar": "/user-avatar.jpg",
       "isOnline": true,
@@ -16,7 +16,7 @@
       "skype": "amiluna"
     },
     {
-      "userId": 2,
+      "id": 2,
       "username": "Harold Adams",
       "avatar": "/user-avatar.jpg",
       "isOnline": false,
@@ -31,7 +31,7 @@
       "skype": "amiluna123"
     },
     {
-      "userId": 3,
+      "id": 3,
       "username": "user",
       "avatar": "/user-avatar.jpg",
       "isOnline": true,
@@ -46,7 +46,7 @@
       "skype": "qwertyqwerty"
     },
     {
-      "userId": 4,
+      "id": 4,
       "username": "qwerty",
       "avatar": "/user-avatar.jpg",
       "isOnline": true,
@@ -63,7 +63,7 @@
   ],
   "comments": [
     {
-      "commentId": 1,
+      "id": 1,
       "userId": 1,
       "channelId": 1,
       "body": "@pierrhack I did for 6 days in Iceland",
@@ -71,7 +71,7 @@
       "messageDate": ["12", "01", "2023"]
     },
     {
-      "commentId": 2,
+      "id": 2,
       "userId": 2,
       "channelId": 1,
       "body": "Which country to visit next? This is a photo with my friends - celebrating in Bali",
@@ -79,7 +79,7 @@
       "messageDate": ["13", "01", "2023"]
     },
     {
-      "commentId": 3,
+      "id": 3,
       "userId": 4,
       "channelId": 2,
       "body": "Which country to visit next? This is a photo with my friends - celebrating in Bali",
@@ -89,14 +89,14 @@
   ],
   "chats": [
     {
-      "chatId": 1,
+      "id": 1,
       "chatName": "Main",
       "bgColor": "rgb(218, 5, 5)"
     }
   ],
   "channels": [
     {
-      "channelId": 1,
+      "id": 1,
       "chatId": 1,
       "channelName": "general",
       "users": [1, 2, 3],
@@ -104,7 +104,7 @@
       "favoriteUsers": [2]
     },
     {
-      "channelId": 2,
+      "id": 2,
       "chatId": 1,
       "channelName": "tests",
       "users": [3, 4],
