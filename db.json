@@ -65,6 +65,7 @@
     {
       "id": 1,
       "userId": 1,
+      "username": "Jeshua Stout",
       "channelId": 1,
       "body": "@pierrhack I did for 6 days in Iceland",
       "messageTime": "11:28",
@@ -73,6 +74,7 @@
     {
       "id": 2,
       "userId": 2,
+      "username": "Harold Adams",
       "channelId": 1,
       "body": "Which country to visit next? This is a photo with my friends - celebrating in Bali",
       "messageTime": "12:02",
@@ -81,6 +83,7 @@
     {
       "id": 3,
       "userId": 4,
+      "username": "qwerty",
       "channelId": 2,
       "body": "Which country to visit next? This is a photo with my friends - celebrating in Bali",
       "messageTime": "12:02",
