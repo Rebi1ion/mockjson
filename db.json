@@ -1,5 +1,92 @@
 {
-  "users": [],
-  "comments": [],
-  "chats": []
+  "users": [
+    {
+      "userId": 1,
+      "username": "Jeshua Stout",
+      "avatar": "/user-avatar.jpg",
+      "isOnline": true,
+      "status": "UI Designer",
+      "link": "@Jeshua",
+      "socialLinks": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com"
+      },
+      "email": "a-luna@gmail.com",
+      "skype": "amiluna"
+    },
+    {
+      "userId": 2,
+      "username": "Harold Adams",
+      "avatar": "/user-avatar.jpg",
+      "isOnline": false,
+      "status": "UX Designer",
+      "link": "@Adams",
+      "socialLinks": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com"
+      },
+      "email": "qwerty@gmail.com",
+      "skype": "amiluna123"
+    },
+    {
+      "userId": 3,
+      "username": "user",
+      "avatar": "/user-avatar.jpg",
+      "isOnline": true,
+      "status": "Front",
+      "link": "@qwerty",
+      "socialLinks": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com"
+      },
+      "email": "qwerty123@gmail.com",
+      "skype": "qwertyqwerty"
+    },
+    {
+      "userId": 4,
+      "username": "qwerty",
+      "avatar": "/user-avatar.jpg",
+      "isOnline": true,
+      "status": "Back",
+      "link": "@qwerty754",
+      "socialLinks": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com"
+      },
+      "email": "qwerty23123@gmail.com",
+      "skype": "qwerty_qwerty"
+    }
+  ],
+  "comments": [
+    {
+      "commentId": 1
+    }
+  ],
+  "chats": [
+    {
+      "chatId": 1,
+      "chatName": "Main",
+      "channels": [
+        {
+          "channelId": 1,
+          "channelName": "general",
+          "users": [1, 2, 3],
+          "adminUsers": [3],
+          "favoriteUsers": [2]
+        },
+        {
+          "channelId": 2,
+          "channelName": "tests",
+          "users": [3, 4],
+          "adminUsers": [4],
+          "favoriteUsers": [3]
+        }
+      ],
+      "bgColor": "rgb(218, 5, 5)"
+    }
+  ]
 }
